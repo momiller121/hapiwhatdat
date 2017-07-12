@@ -1,0 +1,31 @@
+{
+  "name": "hapiwhatdat",
+  "version": "1.0.0",
+  "description": "Hapi plugin adding a route for what dat hapi server got (pull based discovery).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momiller121/hapiwhatdat.git"
+  },
+  "keywords": [
+    "hapi",
+    "discovery"
+  ],
+  "author": "momiller121",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/momiller121/hapiwhatdat/issues"
+  },
+  "homepage": "https://github.com/momiller121/hapiwhatdat#readme",
+  "dependencies": {
+    "blipp": "^2.3.0"
+  },
+  "devDependencies": {
+    "code": "^4.1.0",
+    "hapi": "^16.4.3",
+    "lab": "^14.1.0"
+  }
+}
