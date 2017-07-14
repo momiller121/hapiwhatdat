@@ -4,7 +4,7 @@ Hapi plugin adding a route for what dat hapi server got (pull based discovery).
 ---
 
 Sometimes it's nice to know what a particular Hapi process is delivering. This
-plugin adds a route that responds to a GET with enough information to let
+plugin adds a route that responds to a GET with enough information to let you
 know what you are talking to.
 
 ## Quick start
