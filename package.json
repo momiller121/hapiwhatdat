@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"engines": {
 		"npm": "~5.2.0",
-		"node": ">=6.10.0"
+		"node": ">=6.11.1"
 	},
 	"scripts": {
 		"test": "npx lab -r console -t 100 -a code -L",
@@ -26,12 +26,15 @@
 	},
 	"homepage": "https://github.com/momiller121/hapiwhatdat#readme",
 	"dependencies": {
-		"blipp": "^2.3.0"
+		"blipp": "^2.3.0",
+		"hoek": "^4.1.1",
+		"joi": "^10.6.0"
 	},
 	"devDependencies": {
 		"code": "^4.1.0",
 		"eslint-config-hapi": "^10.0.0",
 		"hapi": "^16.4.3",
-		"lab": "^14.1.0"
+		"lab": "^14.1.0",
+		"shot": "^3.4.2"
 	}
 }
